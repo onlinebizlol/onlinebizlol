@@ -13,6 +13,7 @@
   <style>
     body {
       background:black;
+      color:white;
       margin:0;
       -webkit-font-smoothing: antialiased;
     }
@@ -23,7 +24,6 @@
     
     #top-bar {
       border-bottom:1px solid white;
-      color: white;
       font-size: 12px;
       font-weight:bold;
       letter-spacing: .2px;
@@ -38,16 +38,22 @@
     }
     
     #intro {
-      color:white;
       font-size:50px;
+      font-weight:bold;
       text-align:center;
-      letter-spacing:-.1em;
+      letter-spacing:-.03em;;
       margin-top:50px;
     }
     
     .snip {
       font-size:12px;
       text-transform:uppercase;
+    }
+    
+    .snip.location {
+      position:absolute;
+      top:25%;
+      right:25%;
     }
     
     }
@@ -70,7 +76,7 @@
     we probably wanna work with you.
   </div>
   
-  <div class="snip">
+  <div class="snip location">
     <i class="em em-round_pushpin"></i> 52.476820 13.438370
   </div>
   
