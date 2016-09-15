@@ -5,14 +5,16 @@ $(function() {
   var ADDRESS_LIST = [
     'i.want.it',
     'no.thanks',
+    'succ',
     'bye',
     'eafa48ce5cb84e0abf3bf764edf6fc71',
-    'okwhateverbye',
-    'honestly.dont.give.a.hoot',
+    'whatever',
+    'dont.give.a.hoot',
     'seriousbusiness',
     'iwantyoutoworkforme',
     'lol',
-    'a.creative.technology.company.at.the.intersection.of.biz.and.lol'
+    'you.dump',
+    'biiigcliiicks'
   ];
 
   var $email = $('#email');
