@@ -5,17 +5,20 @@ $(function() {
   var DOMAIN = '@onlinebusiness.lol';
   var ADDRESS_LIST = [
     'i.want.it',
+    'tekno',
     'no.thanks',
     'succ',
     'bye',
     'eafa48ce5cb84e0abf3bf764edf6fc71',
     'whatever',
+    'weltweit',
     'dont.give.a.hoot',
     'seriousbusiness',
     'iwantyoutoworkforme',
     'lol',
     'you.dump',
-    'biiigcliiicks'
+    'biiigcliiicks',
+    'graphixcustum4me'
   ];
 
   var $email = $('#email');
