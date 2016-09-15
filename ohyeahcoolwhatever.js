@@ -1,6 +1,7 @@
 $(function() {
 
   var CHANGE_INTERVAL = 1000;
+  var SUBJECT = '?subject=UGH,RENT: whoa, 👌';
   var DOMAIN = '@onlinebusiness.lol';
   var ADDRESS_LIST = [
     'i.want.it',
@@ -23,7 +24,7 @@ $(function() {
     var address = ADDRESS_LIST[Math.floor(Math.random() * ADDRESS_LIST.length)];
     var email = address + DOMAIN;
 
-    $email.attr('href', 'mailto:' + email);
+    $email.attr('href', 'mailto:' + email + SUBJECT);
     $email.text(email);
 
     setTimeout(changeEmail, CHANGE_INTERVAL);
