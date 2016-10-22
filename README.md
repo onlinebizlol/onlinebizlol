@@ -6,7 +6,7 @@ The homepage for onlinebusiness.lol
 
 * [Node](https://nodejs.org/en/)
 
-## Getting HYPED UP
+## Getting Slammed
 
 * `npm install`
 * `gulp`
