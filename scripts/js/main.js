@@ -1,7 +1,11 @@
+import $ from 'jquery';
+
+import '../../styles/css/main.css';
+
 $(function() {
 
   var CHANGE_INTERVAL = 1000;
-  var SUBJECT = '?subject=UGH,RENT: whoa, 👌';
+  var SUBJECT = '?subject=👌👌👌';
   var DOMAIN = '@onlinebusiness.lol';
   var ADDRESS_LIST = [
     'i.want.it',

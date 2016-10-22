@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:black;
+  color:white;
+  margin:0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color:#9966ff;
+  text-decoration:none;
+  border-bottom:3px dotted;
+}
+
+a:hover {
+  opacity:.8;
+}
+
+a:active {
+  opacity:.6;
+}
+
+.twitter-tweet {
+  margin:0 auto;
+}
+
+#top-bar {
+  box-shadow: 0 1px 55px #9933ff;
+  font-size: 12px;
+  font-weight:bold;
+  letter-spacing: .2px;
+  margin-bottom: 100px;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#top-bar i.em {
+  margin: -3px 0 0 10px;
+}
+
+#intro {
+  font-size:50px;
+  font-weight:bold;
+  text-align:center;
+  letter-spacing:-.03em;;
+  margin-top:50px;
+}
+
+@media only screen and (max-width: 500px) {
+    #intro {
+      font-size:25px;
+    }
+
+    #location-emojis {
+      display:none;
+
+    }
+}
+
+.snip {
+  font-size:12px;
+  text-transform:uppercase;
+}
+
+.snip.location {
+  position:absolute;
+  top:25%;
+  right:15%;
+}
+
+.large-emoji {
+  font-size:160px;
+}
+
+.medium-emoji {
+  font-size:80px;
+}
+
+#location-emojis {
+  position: absolute;
+  left:10%;
+  top:30%;
+}
+
+#flag-on-earf {
+  position: absolute;
+  top: -59px;
+  left: 90px;
+}
