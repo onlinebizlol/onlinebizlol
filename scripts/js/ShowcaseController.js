@@ -39,12 +39,14 @@ export default class ShowcaseController {
     $revealed.addClass('revealed');
     $revealed.css({
       'visibility': 'visible',
-      'z-index': which,
       'position': 'absolute'
     });
 
     new Draggable($revealed[0], {
-      handle: $revealed.find('img')[0]
+      handle: $revealed.find('img')[0],
+      onDragEnd: function(element, x, y, event) {
+        $('main').append(element);
+      }
     })
 
     window.setTimeout(this.revealOne, 2500);
