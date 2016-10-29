@@ -47,7 +47,11 @@ export default class ShowcaseController {
       filterTarget: function(target) {
         return $(window).width() > 800;
       },
+      onDragStart: function(element, x, y, event) {
+        $(element).addClass('dragging');
+      },
       onDragEnd: function(element, x, y, event) {
+        $(element).removeClass('dragging');
         $('main').append(element);
       }
     })
