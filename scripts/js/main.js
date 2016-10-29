@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import _ from 'lodash';
+import FastClick from 'fastclick';
 
 import EmailSwitcher from './EmailSwitcher';
 import TemperatureController from './TemperatureController';
@@ -15,6 +16,8 @@ $(function() {
   var $time = $('#time-output');
   var $snips = $('.snip.perm');
   var $showcases = $('.showcase');
+
+  FastClick.attach(document.body);
 
   new EmailSwitcher($email);
   new TemperatureController($temp);

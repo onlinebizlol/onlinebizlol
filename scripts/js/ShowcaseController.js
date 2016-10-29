@@ -44,6 +44,9 @@ export default class ShowcaseController {
 
     new Draggable($revealed[0], {
       handle: $revealed.find('img')[0],
+      filterTarget: function(target) {
+        return $(window).width() > 800;
+      },
       onDragEnd: function(element, x, y, event) {
         $('main').append(element);
       }

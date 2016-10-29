@@ -1,7 +1,9 @@
+::-moz-selection { background: #9966ff; color: white; }
+::selection { background: #9966ff; color: white; }
+
 * {
   box-sizing: border-box;
 }
-
 
 html {
   height: 2000px;
@@ -131,6 +133,7 @@ ul {
 .showcase img {
   max-width: 100%;
   height: auto;
+  user-select: none;
 }
 
 .showcase img:hover {
@@ -171,6 +174,7 @@ ul {
 }
 
 footer {
+  padding-top: 50px;
   text-align: center;
   font-size: 50px;
   padding-bottom: 50px;
@@ -191,4 +195,26 @@ footer {
 
 .flag-on-earf .earf {
   font-size: 126px;
+}
+
+@media (max-width: 800px) {
+
+  #top-bar {
+    margin-bottom: 20px;
+  }
+
+  .showcase {
+    position: static !important;
+    display: block;
+    max-width: none;
+    width: calc(100% - 40px) !important;
+    margin-top: 20px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    visibility: visible !important;
+  }
+
+  .showcase img {
+    width: 100%;
+  }
 }
