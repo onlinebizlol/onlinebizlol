@@ -27,7 +27,7 @@ class EmailSwitcher {
   }
 }
 
-EmailSwitcher.CHANGE_INTERVAL = 1000;
+EmailSwitcher.CHANGE_INTERVAL = 10000;
 EmailSwitcher.SUBJECT = '?subject=👌👌👌';
 EmailSwitcher.DOMAIN = '@onlinebusiness.lol';
 EmailSwitcher.ADDRESS_LIST = [
