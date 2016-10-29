@@ -21,6 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   height: 2000px;
+  cursor: url('/assets/img/default-cursor@2x.png'), auto;
 }
 
 main {
