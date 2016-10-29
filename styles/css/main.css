@@ -4,7 +4,7 @@
 
 
 html {
-  height: 200%;
+  height: 2000px;
 }
 
 body {
@@ -18,11 +18,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  height: 200%;
+  height: 2000px;
 }
 
 main {
-  min-height: 200%
+  min-height: 2000px;
 }
 
 ul {
@@ -88,13 +88,13 @@ ul {
   display: inline-block;
   top: 50%;
   left: 50%;
-  /*font-size:12px;*/
-  /*text-transform:uppercase;*/
 }
 
 .snip.perm {
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 2px 2px 5px #000;
   z-index: 10001;
+  visibility: hidden;
+  font-weight: bold;
 }
 
 .snip.location {
@@ -109,10 +109,6 @@ ul {
 
 .medium-emoji {
   font-size:80px;
-}
-
-.clients {
-  color: #B3D8FD;
 }
 
 .clients ul li:first-child {
