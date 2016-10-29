@@ -73,6 +73,7 @@ a:hover {
   margin-top:50px;
   position: relative;
   z-index: 10001;
+  text-shadow: 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000;
 }
 
 #intro a {
