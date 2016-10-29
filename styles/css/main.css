@@ -58,6 +58,8 @@ ul {
   text-align:center;
   letter-spacing:-.03em;;
   margin-top:50px;
+  position: relative;
+  z-index: 10001;
 }
 
 #intro a {
