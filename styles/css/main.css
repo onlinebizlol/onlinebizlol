@@ -138,7 +138,7 @@ a:hover {
   margin: 0;
   display: inline-block;
   border: 1px solid #616161;
-  max-width: 40%;
+  width: 40%;
   text-transform: uppercase;
   visibility: hidden;
   position: absolute;
