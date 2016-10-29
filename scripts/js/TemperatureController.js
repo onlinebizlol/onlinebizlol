@@ -23,7 +23,7 @@ export default class TemperatureController {
 
   onTemperature(response) {
     var temperature = ~~this.ktoc(response.main.temp);
-    this.$outputEl.text(temperature);
+    this.$outputEl.text(`${temperature} °C`);
   }
 
   onError(error) {

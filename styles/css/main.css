@@ -2,35 +2,33 @@
   box-sizing: border-box;
 }
 
+
+html {
+  height: 200%;
+}
+
 body {
   background:black;
   color:white;
   margin:0;
+  font-size: 18px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  height: 200%;
+}
+
+main {
+  min-height: 200%
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-a {
-  color:#9966ff;
-  text-decoration:none;
-  border-bottom:3px dotted;
-}
-
-a:hover {
-  opacity:.8;
-}
-
-a:active {
-  opacity:.6;
 }
 
 .twitter-tweet {
@@ -60,6 +58,20 @@ a:active {
   margin-top:50px;
 }
 
+#intro a {
+  color:#9966ff;
+  text-decoration:none;
+  border-bottom:3px dotted;
+}
+
+#intro a:hover {
+  opacity:.8;
+}
+
+#intro a:active {
+  opacity:.6;
+}
+
 @media only screen and (max-width: 500px) {
     #intro {
       font-size:25px;
@@ -72,8 +84,17 @@ a:active {
 }
 
 .snip {
-  font-size:12px;
-  text-transform:uppercase;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  /*font-size:12px;*/
+  /*text-transform:uppercase;*/
+}
+
+.snip.perm {
+  text-shadow: 5px 5px 5px black;
+  z-index: 10001;
 }
 
 .snip.location {
@@ -90,6 +111,57 @@ a:active {
   font-size:80px;
 }
 
+.clients {
+  color: #B3D8FD;
+}
+
+.clients ul li:first-child {
+  text-transform: uppercase;
+  color: white;
+}
+
+.showcase {
+  font-size: 0;
+  margin: 0;
+  display: inline-block;
+  border: 1px solid #616161;
+  max-width: 40%;
+  position: relative;
+  text-transform: uppercase;
+  visibility: hidden;
+  position: absolute;
+}
+
+.showcase img {
+  max-width: 100%;
+  height: auto;
+}
+
+.showcase img:hover {
+  cursor: move;
+}
+
+.showcase figcaption {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.showcase figcaption span {
+  float: left;
+}
+
+.showcase a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #location-emojis {
   position: absolute;
   left:10%;
@@ -100,4 +172,32 @@ a:active {
   position: absolute;
   top: -59px;
   left: 90px;
+}
+
+footer {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
+  /*position: absolute;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+}
+
+.flag-on-earf {
+  position: absolute;
+}
+
+.flag-on-earf .flag {
+  width: 100%;
+  text-align: center;
+  font-size: 63px;
+  position: absolute;
+  top: -32px;
+  left: 8px;
+}
+
+.flag-on-earf .earf {
+  font-size: 126px;
 }
