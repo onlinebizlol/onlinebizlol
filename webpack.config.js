@@ -1,6 +1,7 @@
 var path    = require('path');
 var webpack = require('webpack');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var WriteFilePlugin = require('write-file-webpack-plugin');
 
 module.exports = {
   devtool: 'inline-source-map',
@@ -22,6 +23,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new WriteFilePlugin(),
     new webpack.optimize.OccurenceOrderPlugin(),
 
     // move all css out into separate file

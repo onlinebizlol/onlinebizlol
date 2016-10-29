@@ -30,6 +30,7 @@ gulp.task('serve', function(callback) {
   // modify some webpack config options
   var devConfig = Object.create(webpackConfig);
   devConfig.devServer = {
+    outputPath: 'assets/',
     inline: true
   };
 
