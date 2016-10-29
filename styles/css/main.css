@@ -124,7 +124,6 @@ ul {
   display: inline-block;
   border: 1px solid #616161;
   max-width: 40%;
-  position: relative;
   text-transform: uppercase;
   visibility: hidden;
   position: absolute;
@@ -134,6 +133,9 @@ ul {
   max-width: 100%;
   height: auto;
   user-select: none;
+  -webkit-user-select: none;
+  vertical-align: bottom;
+  display: inline-block
 }
 
 .showcase img:hover {
