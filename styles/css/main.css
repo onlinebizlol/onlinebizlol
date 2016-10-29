@@ -69,6 +69,10 @@ a:hover {
   margin: -3px 0 0 10px;
 }
 
+#top-bar span {
+  white-space: nowrap;
+}
+
 #intro {
   font-size:50px;
   font-weight:bold;
@@ -245,6 +249,15 @@ footer {
 }
 
 @media (max-width: 800px) {
+  html,
+  body,
+  main {
+    height: auto;
+  }
+
+  footer {
+    position: static;
+  }
 
   #top-bar {
     margin-bottom: 20px;
