@@ -153,6 +153,8 @@ ul {
 
 .showcase figcaption span {
   float: left;
+  width: 0;
+  white-space: nowrap;
 }
 
 .showcase a {
@@ -214,6 +216,10 @@ footer {
     margin-right: auto !important;
     margin-left: auto !important;
     visibility: visible !important;
+  }
+
+  .showcase figcaption {
+    position: static;
   }
 
   .showcase img {
