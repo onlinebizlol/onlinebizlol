@@ -196,6 +196,11 @@ a:hover {
   position: relative;
 }
 
+.showcase figcaption:hover {
+  color: white;
+  background-color: black;
+}
+
 .showcase figcaption span {
   float: left;
   width: 0;
