@@ -32,6 +32,18 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#019fb1',GradientType=0 );
 }
 
+body:after {
+  display: none;
+  height: 0;
+  width: 0;
+  content: url('/assets/img/cursor-link@1x.png')
+    url('/assets/img/cursor-link@2x.png')
+    url('/assets/img/move-cursor@1x.png')
+    url('/assets/img/move-cursor@2x.png')
+    url('/assets/img/dragging-cursor@1x.png')
+    url('/assets/img/dragging-cursor@2x.png');
+}
+
 main {
   min-height: 2000px;
 }
